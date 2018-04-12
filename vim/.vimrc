@@ -1,3 +1,10 @@
+" Sets how many lines of history VIM has to remember
+set history=500
+
+" Enable filetype plugins
+filetype plugin on
+filetype indent on
+
 if !exists("g:syntax_on")
     syntax enable
 endif
